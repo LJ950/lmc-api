@@ -7,8 +7,8 @@ Rails 6.1.4.1
 
 ## Database
 
-- Create the database `rake:db:create`
-- Load from schema `rake db:load:schema`
+- Create the database `rake db:create`
+- Load from schema `rake db:schema:load`
 - Seed entire db `rake db:seed:all`
 - Seed individual seed files `rake db:seed:[file_name]`
 
