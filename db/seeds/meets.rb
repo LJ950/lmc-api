@@ -1,7 +1,7 @@
 # Meet1 - hut - open
 Meet.create!(
   meet_date: 10.days.from_now,
-  meet_type: 'Hut',
+  meet_type: 'hut',
   number_of_nights: 2,
   places: 12,
   location: 'Ingleton, Yorkshire Dales',
@@ -12,7 +12,7 @@ Meet.create!(
 # Meet2 - camping - open
 Meet.create!(
   meet_date: 20.days.from_now,
-  meet_type: 'Camping',
+  meet_type: 'camping',
   number_of_nights: 2,
   location: "Ty'n Lon, Nant Peris, Snowdonia",
   bb_url: 'www.bburl12.com',
@@ -23,7 +23,7 @@ Meet.create!(
 # Meet3 - day - full
 Meet.create!(
   meet_date: 2.days.from_now,
-  meet_type: 'Day',
+  meet_type: 'day',
   number_of_nights: 2,
   places: 4,
   location: 'Some walk somewhere',
@@ -34,7 +34,7 @@ Meet.create!(
 # Meet4 - evening - open
 Meet.create!(
   meet_date: 26.days.from_now,
-  meet_type: 'Evening',
+  meet_type: 'evening',
   location: 'Leeds Wall',
   activity: 'climb'
 )
@@ -42,7 +42,7 @@ Meet.create!(
 # Meet5 - day
 Meet.create!(
   meet_date: 57.days.from_now,
-  meet_type: 'Day',
+  meet_type: 'day',
   location: 'Pen y Ghent, Yorkshire Dates',
   bb_url: 'www.bburl4.com',
   notes: 'Meet at Horton in Ribblesdale at 10am',
@@ -53,7 +53,7 @@ Meet.create!(
 # Meet6
 Meet.create!(
   meet_date: 67.days.from_now,
-  meet_type: 'Hut',
+  meet_type: 'hut',
   number_of_nights: 2,
   places: 16,
   location: 'K Shoes, Borrowdale',
@@ -63,7 +63,7 @@ Meet.create!(
 # Meet7
 Meet.create!(
   meet_date: 97.days.from_now,
-  meet_type: 'Hut',
+  meet_type: 'hut',
   number_of_nights: 4,
   places: 10,
   location: 'Kinlochewe Hotel Bunkhouse, nr. Torridon, Northwest Highlands, Scotland',

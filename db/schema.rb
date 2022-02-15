@@ -88,13 +88,14 @@ ActiveRecord::Schema.define(version: 20_210_429_190_506) do
     t.date 'dob'
     t.string 'experience'
     t.boolean 'accept_risks'
-    t.string 'password_digest'
+    # t.string 'password_digest'
     t.datetime 'created_at', null: false
     t.datetime 'updated_at', null: false
-    t.string 'reset_digest'
-    t.datetime 'reset_sent_at'
+    # t.string 'reset_digest'
+    # t.datetime 'reset_sent_at'
     t.boolean 'receive_emails', default: false
     t.string 'bb_name'
+    t.string 'firebase_id', unique: true
     t.index ['email'], name: 'index_members_on_email', unique: true
   end
 

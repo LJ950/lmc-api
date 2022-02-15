@@ -4,6 +4,11 @@ Rails.application.routes.draw do
   namespace :api, defaults: { format: :json } do
     namespace :v1 do
       resources :meets, only: %i[index show]
+      scope module: :authorization do
+        get 'user', to: 'members#show'
+        resources :members, only: %i[index] do
+        end
+      end
     end
   end
 end
